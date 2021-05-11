@@ -217,22 +217,3 @@ def lista(x):
                     new.append(int(original[0]))
                     new.append(int(original[1])) 
     return new  
-
-
-
-a=Grafo2()
-#a.malla(20, 25, True)
-a.gilbert(100, .30, False)
-#a.erdosRenyi(100,200,False)
-#a.geografico(30, 2, True)
-#a.Barabasi(100, 3, False)
-#a.DorogobsevM(30, False)
-a.dfsit(250)
-#a.saveRecursivo()
-print(a.arbol)
-
-
-
-
-
-
